@@ -1,0 +1,31 @@
+{
+  "name": "@khgame/err",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf ./lib/ && npx tsc",
+    "lint": "tslint --fix --project .",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khgame/err.git"
+  },
+  "keywords": [
+    "error",
+    "assert",
+    "khgame"
+  ],
+  "author": "bagaking <kinghand@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khgame/err/issues"
+  },
+  "homepage": "https://github.com/khgame/err#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.3"
+  }
+}
